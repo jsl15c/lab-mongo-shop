@@ -29,8 +29,6 @@
 // ... )
 // > db.users.insertOne( { firstName:"Ihor", lastName:"Bodnarchuk", dateBirth:ISODate("1994-00-28T11:43:16.369Z"),
 // address: { streetAddress:"117 sw 10th st apt 1708", city:"Miami", state:"FL", postalCode:33130 } } )
-
-
 // 1.3 | Insert our first products in products collection
 // ------------------------------------------------------
 // PASTE 3 PRODUCT INSERT QUERIES HERE
@@ -44,23 +42,16 @@
 // ... )
 // > db.products.insertOne( {    "name": "Cottage cheese",    "description":"High protein low-fat cottage cheese",    "category":"Dairy",    "price":2.0 } )
 // > db.products.insertOne( {    "name": "Snacks",    "description":"Assorted variety of building.co snacks",    "category":"Snacks",    "price":0.0 } )
-
-
 // 1.4 | Getting Started with queries
 // ----------------------------------
 // PASTE SHOPPING CART QUERY HERE
 // > db.users.updateMany({}, {$set: {shoppingCart:[] }})
-
-
 // PASTE LIST PRODUCTS QUERY HERE
 // > db.products.find().pretty()
-
 // PASTE CATEGORY PRODUCTS QUERY HERE
 // > db.products.find({category:"Dairy"}).pretty()
-
 // PASTE DELETE PRODUCT QUERY HERE
 // > db.products.deleteOne({name:"Water Bottle"})
-
 // PASTE REVIEW QUERY HERE
 // > db.products.updateOne(
 // ... {name: 'Snacks'} ,
